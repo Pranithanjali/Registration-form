@@ -37,31 +37,5 @@ document.getElementById('registrationForm').addEventListener('submit', async (e)
     }
 });
 
-/*document.getElementById('registrationForm').addEventListener('submit', function(e) {
-    e.preventDefault();
 
-    // Get values
-    const name = document.getElementById('name').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const phone = document.getElementById('phone').value.trim();
-    const college = document.getElementById('college').value.trim();
-
-    // Simple Validation
-    if (name === '' || email === '' || phone === '' || college === '') {
-        alert('Please fill all fields');
-        return;
-    }
-
-    if (!email.includes('@') || !email.includes('.')) {
-        alert('Please enter a valid email');
-        return;
-    }
-
-    if (phone.length < 10) {
-        alert('Phone number should be at least 10 digits');
-        return;
-    }
-
-    // Success Message (Later this will call backend)
-    document.getElementById('successMsg').innerText = 'Registration Successful!';
 });*/
